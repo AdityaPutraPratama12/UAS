@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegistrasiActivity">
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Name"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textColor="#C53232"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/edt_nama"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Anda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/negara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Negara Asal"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textColor="#C53232"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/edt_nama"
+        app:layout_constraintTop_toBottomOf="@+id/edt_nama" />
+
+    <EditText
+        android:id="@+id/edt_negara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Masukkan Asal Negara Anda"
+        app:layout_constraintBottom_toTopOf="@+id/kota"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/negara"
+        app:layout_constraintTop_toBottomOf="@+id/negara" />
+
+    <TextView
+        android:id="@+id/kota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Kota Asal"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textColor="#C53232"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/edt_negara"
+        app:layout_constraintTop_toBottomOf="@+id/edt_negara" />
+
+    <EditText
+        android:id="@+id/edt_kota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Masukkan Asal Kota Anda"
+        app:layout_constraintBottom_toTopOf="@+id/new_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/kota"
+        app:layout_constraintTop_toBottomOf="@+id/kota" />
+
+    <TextView
+        android:id="@+id/nohp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nomor HP"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textColor="#C53232"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/edt_kota"
+        app:layout_constraintTop_toBottomOf="@+id/edt_kota" />
+
+    <EditText
+        android:id="@+id/edt_nohp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Masukkan Nomor Hendphone Anda"
+        app:layout_constraintBottom_toTopOf="@+id/new_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/nohp"
+        app:layout_constraintTop_toBottomOf="@+id/nohp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=" Password"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textColor="#C53232"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/edt_nohp"
+        app:layout_constraintTop_toBottomOf="@+id/edt_nohp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Masukkan Password Anda "
+        app:layout_constraintBottom_toTopOf="@+id/new_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/daftar"
+        android:layout_width="146dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="19dp"
+        android:text="DAFTAR"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textColor="@color/colorred"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="@id/edt_password"
+        app:layout_constraintTop_toBottomOf="@+id/edt_password" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

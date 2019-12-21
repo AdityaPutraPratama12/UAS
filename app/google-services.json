@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "532011079435",
+    "firebase_url": "https://uasfirebaseproject-638f5.firebaseio.com",
+    "project_id": "uasfirebaseproject-638f5",
+    "storage_bucket": "uasfirebaseproject-638f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532011079435:android:63724015c4046048d2340e",
+        "android_client_info": {
+          "package_name": "polinema.ac.id.uas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532011079435-aflf1918o0nlaom42tjrefnk3s8r1dp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "polinema.ac.id.uas",
+            "certificate_hash": "da627244085d725da852e62c628532d773997065"
+          }
+        },
+        {
+          "client_id": "532011079435-b18ss9j2d29vpkak53lfhsohm1ag3sde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc87xCYklluWqR-c4HvaVRW6T_wF2RNwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532011079435-b18ss9j2d29vpkak53lfhsohm1ag3sde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

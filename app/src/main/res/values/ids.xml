@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="login" type="id" />
+    <item name="navigation" type="id" />
+    <item name="fragment_container" type="id" />
+    <item name="cardview1" type="id" />
+    <item name="cardview2" type="id" />
+    <item name="cardview3" type="id" />
+    <item name="cardview4" type="id" />
+    <item name="cardview5" type="id" />
+    <item name="daftar" type="id" />
+    <item name="bayar" type="id" />
+    <item name="registrasi" type="id" />
+    <item name="pembayaran" type="id" />
+    <item name="contact" type="id" />
+    <item name="about" type="id" />
+    <item name="cardview6" type="id" />
+    <item name="cardview7" type="id" />
+    <item name="cardview8" type="id" />
+    <item name="cardview9" type="id" />
+    <item name="cardview10" type="id" />
+    <item name="images1" type="id" />
+    <item name="images2" type="id" />
+    <item name="images3" type="id" />
+    <item name="images4" type="id" />
+    <item name="images5" type="id" />
+    <item name="images6" type="id" />
+    <item name="images7" type="id" />
+    <item name="images8" type="id" />
+    <item name="images9" type="id" />
+    <item name="images10" type="id" />
+    <item name="images11" type="id" />
+    <item name="new_password" type="id"/>
+</resources>

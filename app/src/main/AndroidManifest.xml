@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="polinema.ac.id.uas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.UangActivity"></activity>
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.RegistrasiActivity" />
+        <activity android:name=".activities.pembayaranActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.b11Activity" />
+        <activity android:name=".activities.b10Activity" />
+        <activity android:name=".activities.b9Activity" />
+        <activity android:name=".activities.b8Activity" />
+        <activity android:name=".activities.b7Activity" />
+        <activity android:name=".activities.b6Activity" />
+        <activity android:name=".activities.b5Activity" />
+        <activity android:name=".activities.b4Activity" />
+        <activity android:name=".activities.b3Activity" />
+        <activity android:name=".activities.b2Activity" />
+        <activity android:name=".activities.b1Activity" />
+        <activity android:name=".activities.AboutActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>
