@@ -8,7 +8,7 @@
         android:icon="@drawable/clipboard" />
     <item android:id="@+id/action_chat"
         android:title="Talk to Us"
-        android:icon="@drawable/chat" />
+        android:icon="@drawable/pesan" />
     <item android:id="@+id/action_account"
         android:title="Account"
         android:icon="@drawable/akun" />
